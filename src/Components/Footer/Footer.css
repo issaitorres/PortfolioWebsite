@@ -1,0 +1,25 @@
+.footer__container {
+    background-color: var(--primary-color);
+    color: var(--default-text);
+    width: 100%;
+    min-height: 150px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer__contents {
+    margin: 20px;
+}
+
+.footer__contents div {
+    display: flex;
+    justify-content: center;
+}
+
+/* .footer__contents > div > a {
+    color: var(--default-text);
+} */
+
+.footer__copyright {
+    font-size: 20px;
+}

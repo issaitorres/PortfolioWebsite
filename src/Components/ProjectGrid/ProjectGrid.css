@@ -1,0 +1,12 @@
+.projectgrid__container {
+    margin: 20px 0px;
+    text-align: center;
+    color: var(--default-heading-text);
+}
+.projectgrid__cards-container {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+}

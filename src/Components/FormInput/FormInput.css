@@ -1,0 +1,22 @@
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput input, .formInput textarea {
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: var(--default-text);
+}
+
+.formInput label {
+    font-size: 16px;
+    color: var(--default-black);
+}
+
+.formInput textarea {
+    font-family: Arial;
+}

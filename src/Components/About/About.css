@@ -1,0 +1,30 @@
+.about__container {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    vertical-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 10px auto;
+    max-width: 1600px;
+    padding: 10px;
+}
+
+.about__section {
+    vertical-align: center;
+    display: flex;
+    align-self: center;
+    padding: 10px 20px;
+}
+
+.about__section p {
+    max-width: 400px;
+    padding: 0px 10px;
+    font-size: 18px;
+    color: var(--default-heading-text);
+}
+
+.about__section img {
+    border-radius: 50%;
+    max-width: 100%;
+}

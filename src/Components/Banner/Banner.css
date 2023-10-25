@@ -1,0 +1,30 @@
+.banner {
+    text-align: center;
+    border-radius: 5px;
+    color: var(--default-text);
+    font-size: 18px;
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: left;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.banner__success {
+    background-color: var(--banner-success);
+    border: 1px solid var(--banner-success);
+
+}
+
+.banner__warning {
+    background-color: var(--banner-warning);
+    border: 1px solid var(--banner-warning);
+}
+
+.banner__icon {
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    padding: 5px;
+}

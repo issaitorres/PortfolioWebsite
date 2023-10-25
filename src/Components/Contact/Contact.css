@@ -1,0 +1,29 @@
+.contact__container {
+    margin: 20px auto;
+    max-width: 400px;
+    width: 100%;
+    color: var(--default-heading-text);
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact > button {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.contact__button-flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px
+}
+
+.contact_button {
+    border: none;
+}
