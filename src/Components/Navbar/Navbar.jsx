@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react"
 import { FaDownload, FaBars, FaMoon, FaSun } from "react-icons/fa";
-import resume from "../../Assets/issai_torres_resume_late_2023.pdf"
+import resume from "../../Assets/issai_torres_resume_fall_2023.pdf"
 import { useColorScheme } from "../../Hooks/useColorScheme";
 import "./Navbar.css"
 
