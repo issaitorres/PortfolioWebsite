@@ -53,7 +53,7 @@ const Carousel = ({ content }) => {
                 key={0}
                 style={{transform: `translate(-${currentIndex * 100}%)`}}
               >
-                <iframe className="responsive-iframe" src={content["video"] }/>
+                <iframe title="project-video" className="responsive-iframe" src={content["video"] }/>
               </div>
             :
               null
@@ -65,7 +65,7 @@ const Carousel = ({ content }) => {
                 key={content["video"] ? index + 1  : index}
                 style={{transform: `translate(-${currentIndex * 100}%)`}}
               >
-                <img className="responsive-image" src={image} alt="project-image" width="500" height="600"/>
+                <img className="responsive-image" src={image} alt="project-content" width="500" height="600"/>
               </div>
             )
           })}
@@ -96,12 +96,20 @@ const Carousel = ({ content }) => {
           })}
         </div>
 
-        <a className="carousel__previous carousel__button" onClick={() => previousSlide()}>
+        <a
+          className="carousel__previous carousel__button"
+          onClick={() => previousSlide()}
+          href="#doesnotexist" //eslint
+        >
             <span className="carousel__icon-container">
                 <FaChevronLeft />
             </span>
         </a>
-        <a className="carousel__forward carousel__button" onClick={() => nextSlide()}>
+        <a
+          className="carousel__forward carousel__button"
+          onClick={() => nextSlide()}
+          href="#doesnotexist" //eslint
+        >
             <span className="carousel__icon-container">
                 <FaChevronRight/>
             </span>

@@ -74,6 +74,7 @@ const Navbar = () => {
                             <a
                                 className="navbar__link navbar__dropdown-link-container"
                                 onClick={() => triggerDarkMode()}
+                                href="#doesnotexist" //eslint
                             >
                                 <span className="navbar__icon">
                                     {isDark ? <FaSun /> : <FaMoon />}
@@ -98,6 +99,7 @@ const Navbar = () => {
                     <a
                         className="button navbar__link navbar__header-link"
                         onClick={() => triggerDarkMode()}
+                        href="#doesnotexist" //eslint
                     >
                         <span className="navbar__icon">
                             {isDark ? <FaSun /> : <FaMoon />}
