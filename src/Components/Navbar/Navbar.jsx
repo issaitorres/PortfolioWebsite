@@ -43,11 +43,7 @@ const Navbar = () => {
         setIsDark(!isDark)
 
         // save darkmode settins to local storage
-        const darkMode =
-            window?.localStorage?.colorSchema
-                ? JSON.parse(window?.localStorage?.colorSchema)
-                : true
-        window?.localStorage.setItem("colorScheme", JSON.stringify(!darkMode))
+        window?.localStorage.setItem("colorScheme", JSON.stringify(!isDark))
     }
 
     useEffect(() => {
@@ -74,7 +70,6 @@ const Navbar = () => {
                             <a
                                 className="navbar__link navbar__dropdown-link-container"
                                 onClick={() => triggerDarkMode()}
-                                href="#doesnotexist" //eslint
                             >
                                 <span className="navbar__icon">
                                     {isDark ? <FaSun /> : <FaMoon />}
@@ -99,7 +94,6 @@ const Navbar = () => {
                     <a
                         className="button navbar__link navbar__header-link"
                         onClick={() => triggerDarkMode()}
-                        href="#doesnotexist" //eslint
                     >
                         <span className="navbar__icon">
                             {isDark ? <FaSun /> : <FaMoon />}

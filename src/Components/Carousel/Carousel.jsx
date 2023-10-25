@@ -99,7 +99,6 @@ const Carousel = ({ content }) => {
         <a
           className="carousel__previous carousel__button"
           onClick={() => previousSlide()}
-          href="#doesnotexist" //eslint
         >
             <span className="carousel__icon-container">
                 <FaChevronLeft />
@@ -108,7 +107,6 @@ const Carousel = ({ content }) => {
         <a
           className="carousel__forward carousel__button"
           onClick={() => nextSlide()}
-          href="#doesnotexist" //eslint
         >
             <span className="carousel__icon-container">
                 <FaChevronRight/>
